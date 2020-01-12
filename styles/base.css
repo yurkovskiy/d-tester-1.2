@@ -1,0 +1,54 @@
+/* d-test styles definitions */
+
+a:link, a:visited, a:active { text-decoration: underline; color: #000 }
+a:hover { color: #465584; text-decoration:underline }
+
+input:focus {background-color: #FDFC81;}
+
+.title {font-family: Arial, Tahoma, Verdana, sans-serif;font-size: 14px;}
+
+.hrefs {font-family: Times; font-size: 16px; color: blue;}
+
+.index_table {font-family: Arial, Tahoma, Verdana, sans-serif;font-size: 16px;color: black;}
+
+.tbl_view_frame {font-size: 16px; color: black;}
+
+.tbl_task {font-size: 18px; color: black;}
+
+.header_info {font-size:14px;  font-family: Verdana, Helvetica, Arial}
+
+.maintitle {vertical-align:middle; font-weight: bold;color: white; padding:6px 0px 6px 5px; background-image: url(tile_back.gif);}
+
+.row1 { background-color: #F5F9FD }
+.row2 { background-color: #DFE6EF }
+.row3 { background-color: #EEF2F7 }
+.row4 { background-color: #E4EAF2 }
+
+.ans_row_norm { background-color: #FFFFFF }
+.ans_row_chec { background-color: #F3F788 }
+
+fieldset.search { padding:6px; line-height:150% }
+.darkrow1 { background-color: #C2CFDF; color:#4C77B6; }
+.darkrow2 { background-color: #BCD0ED; color:#3A4F6C; }
+.darkrow3 { background-color: #D1DCEB; color:#3A4F6C; }
+
+.button {font-size: 12px; font-weight: bold; border: solid; border-width: 2px;background-color: #ffffff; color: #333355; background-image: url(button_gradient.gif);}
+
+.forminput, .textinput, .radiobutton, .checkbox { font-size: 11px; font-family: verdana, helvetica, sans-serif; vertical-align: middle;}
+
+.timer {border: 0px; background-color:#BCD0ED; color:#000000; font-weight: bold;font-family: Verdana;}
+
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px }
+
+.titlemedium { border:1px solid #FFF; font-weight:bold; color:#3A4F6C; padding:7px 0px 7px 2px; background-image: url(tile_sub.gif) }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #3A4F6C } 
+
+#nav_cell {
+	width			: 90%;
+	font-size		: 12px;
+	font-family		: Tahoma;
+	font-weight		: bold;
+	letter-spacing	: 1px;
+}
+
+#CODE { font-family: Courier, Courier New, Verdana, Arial;font-size: 11px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;padding-left: 2px;color: #465584;background-color: #FAFCFE;border: 1px solid #000; }

@@ -1,0 +1,4 @@
+allow from 192.168.0
+allow from 192.168.1
+deny from all
+#allow from all

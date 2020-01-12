@@ -1,0 +1,113 @@
+body{
+	margin:0;
+	padding:0;
+	}
+#main{	
+	width:640px;
+	height:400px;
+	background-image:url('./../images/LoginModal.gif');
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-200px;
+	margin-left:-320px;
+	}
+#header{
+	width:630px;
+	background:#ffffff;
+	position:relative;
+	border: 1px solid #ffffff;
+	top:5px;
+	left:5px;
+	text-align:center;
+	}
+.text{
+	color:#6b6b6b;
+	font-family:Comic Sans MS, cursive;
+	font-size:12pt;
+	
+	}
+#login_form{
+	background-image:url('./../images/LoginModal_03.jpg');
+	position:relative;
+	width:371px;
+	height:220px;
+	top:-90px;
+	left:130px;
+	z-index:1;
+	
+	}
+#login_form_{
+	position:relative;
+	top:80px;
+	left:50px;
+	color:#6b6b6b;
+	font-family:Verdana
+	}
+.input_field{
+	border: 2px solid #6b6b6b;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	width: 200px;
+	color: #6b6b6b;
+	letter-spacing: 1px;
+	}
+.input_field:focus{
+	background:#8bf600;
+	border: 2px solid #6b6b6b;
+	font-weight:bold;
+	color:#6b6b6b;
+	}
+.button{
+	color:white;
+	background:#56586e;
+	border: 1px solid #d5d5d5;
+	}
+#error_msg {
+    color: red;
+    height: 20px;
+    left: 100px;
+    position: relative;
+    text-align: center;
+    top: 55px;
+    width: 150px;
+}
+#logo{
+	position:relative;
+	background-image:url('./../images/dt_logo_png_1.2.png');
+	width:150px;
+	height:138px;
+	z-index:50;
+	top:15px;
+	left:90px;
+	}
+#hello_text{
+	position:relative;
+	left:150px;
+	top:50px;
+	font-family:Comic Sans MS, cursive;
+	font-weight:bold;
+	color:#56586E;
+	font-size:20pt;
+	}
+
+#footer {
+	position: relative;
+	top: 30px;
+}
+
+.adminformcopy {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+}
+.adminformcopy a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.adminformcopy:hover {
+	color: #000000;
+	text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+a
+{
+text-decoration: none; color: white;
+}
+
+a:hover 
+{
+text-decoration: underline; color:white;
+}
+
+a:visited
+{
+color: white;
+}
+
+.tbl_main
+{
+background-color: #FFFFFF;
+}
+
+.tbl_news_text
+{
+background-color: #F5F9FD;
+border: 2px solid #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;
+}
+
+.search_news_text
+{
+background-color: #FFFFFF;
+border: 0px solid #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;
+}
+
+.tbl_index_stat
+{
+/*background-color: #CCFF99;*/
+background-color: #F5F9FD;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #0000FF;
+border: 2px solid #000000;
+}
+
+.tbl_index_stat  a:link, .tbl_index_stat  a:visited, .tbl_index_stat  a:active  { text-decoration: underline; color: #3A4F6C } 
+
+.tbl_hrefs
+{
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0000FF;
+border: 1px solid #000000;
+}
+
+.tbl_nav
+{
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #0000FF;
+}
+
+.tbl_search
+{
+font-size: 14px; color: black; 
+}
+
+.photo_find
+{
+font-size: 15px;
+}
+
+.form_search
+{
+font-size: 14px; color: black; 
+}
+
+.about_big
+{
+font-family: Arial, Tahoma;
+font-size: 32px;
+}
+
+.about_name
+{
+font-family: Arial, Tahoma;
+font-size: 16px;
+font-weight: bold;
+}
+
+.about_info
+{
+font-size: 14px;
+}
+
+.NavItem 
+{
+vertical-align:middle; font-weight: bold;color: white; 
+padding:6px 0px 6px 5px; background-image: url(tile_back.gif)
+}
+
+.button 
+{
+font-size: 12px; font-weight: bold; border: solid; border-width: 1px;background-color: #ffffff; 
+color: #333355; background-image: url(button_gradient.gif);
+}
+
+.row1 { background-color: #F5F9FD }
+.row2 { background-color: #DFE6EF }
+.row3 { background-color: #EEF2F7 }
+.row4 { background-color: #EEF2F7 }
+.darkrow1 { background-color: #C2CFDF; color:#4C77B6; }
+.darkrow2 { background-color: #BCD0ED; color:#3A4F6C; }
+.darkrow3 { background-color: #D1DCEB; color:#3A4F6C; }
+
+.row4 a:link {display:block;}
+.row4 a:hover {background-color: yellow;}
+
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px }
+.copyright a:link, .copyright a:visited { text-decoration: underline; color: #000000; }
+.copyright a:hover { text-decoration: underline; color: #0000FF; }
+
+.titlemedium { border:1px solid #FFF; font-weight:bold; color:#3A4F6C; padding:7px 0px 7px 2px; background-image: url(tile_sub.gif) }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #3A4F6C }
+
+.textinput {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        border: 1px solid #D1D7DC;
+        padding-right: 3px;
+        padding-left: 3px;
+}
+
+.textinputb {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        border: 1px solid #D1D7DC;
+        padding-right: 3px;
+        padding-left: 3px;
+}

@@ -1,0 +1,267 @@
+/* d-test styles definitions */
+.hrefs
+{
+font-size: 16px; color: blue;
+}
+
+a:link, a:visited, a:active { text-decoration: underline; color: #000 }
+a:hover { color: #465584; text-decoration:underline }
+
+input:focus {background-color: #FDFC81;}
+select:focus {background-color: #FDFC81;}
+
+.tbl_view_frame
+{
+font-size: 16px; color: black; 
+}
+
+.stat_table
+{
+border: 2px solid #000000;
+padding:1px 1px 1px 1px;
+font-size: 14px; 
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+vertical-align: middle; 
+}
+
+.maintitle 
+{ 
+vertical-align:middle; font-weight: bold;color: white; 
+padding:6px 0px 6px 5px; background-image: url(tile_back.gif)
+}
+
+.row1 { background-color: #F5F9FD }
+.row2 { background-color: #DFE6EF }
+.row3 { background-color: #EEF2F7 }
+.row4 { background-color: #E4EAF2 }
+.exam { background-color: #FBAF86 }
+fieldset.search { padding:6px; line-height:150% }
+.row1 a:link {display:block;}
+.row1 a:hover {background-color: yellow;}
+
+.yrow { background-color: #FFFF99 }
+.mrow { background-color: #B5F984 }
+
+.darkrow1 { background-color: #C2CFDF; color:#4C77B6; }
+.darkrow2 { background-color: #BCD0ED; color:#3A4F6C; }
+.darkrow3 { background-color: #D1DCEB; color:#3A4F6C; }
+
+.button 
+{
+font-size: 12px; font-weight: bold; border: solid; border-width: 1px;background-color: #ffffff; 
+color: #333355; background-image: url(button_gradient.gif);
+}
+
+.radiobutton, .checkbox  { font-size: 11px; font-family: verdana, helvetica, sans-serif; vertical-align: middle }
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif; font-size: 9px; line-height: 12px }
+.titlemedium { border:1px solid #FFF; font-weight:bold; color:#3A4F6C; padding:7px 0px 7px 2px; background-image: url(tile_sub.gif) }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { text-decoration: underline; color: #3A4F6C }
+
+.timer {border: 0px; text-align: center; background-color:#BCD0ED; color:#000000; font-size: 12px;font-weight: bold;font-family: Verdana;}
+
+.stattable_fine {background-color: #F5F9FD;}
+.stattable_good {background-color: #00FF00;}
+.stattable_satisf {background-color: #FFFF00;}
+.stattable_bad {background-color: #FF8040;}
+
+.maintable {
+        border: 2px solid #0E72A4;
+        background-color: #ffffff;
+        margin-top: 1px;
+        margin-bottom: 1px;
+}
+
+.tableh1 {
+        background : #0E72A4 ;
+        color : #FFFFFF;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+}
+
+.tableb {
+        background: #EFEFEF ;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+}
+
+.tablef {
+        background: #EFEFEF;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+}
+
+.textinput {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        border: 1px solid #D1D7DC;
+        padding-right: 3px;
+        padding-left: 3px;
+}
+
+.textinputb {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        /*border: 3px solid #D1D7DC;*/
+        border: 2px solid #0E72A4;
+        padding-right: 3px;
+        padding-left: 3px;
+}
+
+#b_logo_pos {
+		float: right;
+}
+
+/* Print order new version */
+#pro_form_type {
+		text-align: right;
+		width: 95%;
+}
+
+#pro_uni_name {
+		text-align: center;
+		padding-top: 5px;
+		width: 100%;
+		font-family: Times New Roman, Arial;
+		font-size: 16px;
+}
+
+#pro_form_name {
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 100%;
+		font-size: 16px;
+		font-family: Times New Roman, Arial;
+		font-weight: bold;
+}
+
+.pro_header_table {
+		border: 0px;
+		width: 98%;
+}
+
+#pro_results_table {
+		/*border: 1px solid #000;*/
+		border-top: 1px solid #000;
+		border-left: 1px solid #000;
+		width: 98%;
+		margin-top: 10px;
+		font-size: 12px;
+}
+
+.pro_header_row_title {
+		text-align: left;
+		border-bottom: 0px dashed #000;
+		font-family: Times New Roman, Arial;
+		font-size: 16px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		vertical-align: top;
+}
+
+.pro_header_row_value {
+		text-align: left;
+		border-bottom: 1px solid #000;
+		font-family: Times New Roman, Arial;
+		font-size: 16px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		vertical-align: top;
+}
+
+.pro_header_row_ {
+		text-align: center;
+		border-top: 1px solid #000;
+		font-family: Times New Roman, Arial;
+		font-size: 12px;
+		padding-top: 1px;
+		padding-bottom: 7px;
+		vertical-align: top;
+}
+
+.pro_results_row {
+		text-align: center;
+		/*border: 1px solid #000;*/
+		font-family: Times New Roman, Arial;
+		font-size: 14px;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+}
+
+.pro_results_row_name {
+		text-align: left;
+		/*border: 1px solid #000;*/
+		padding-left: 2px;
+		font-family: Times New Roman, Arial;
+		font-size: 14px;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+}
+
+#pro_footer_table {
+		margin-top: 10px;
+		border: 0px dashed #000;
+		width: 75%;
+}
+
+#pro_footer_left_row {
+		width: 30%;
+		float: left;
+		margin-top: 10px;
+		margin-left: 20px;
+		border: 0px solid #000;
+}
+
+#pro_footer_right_row {
+		width: 60%;
+		float: right;
+		margin-top: 120px;
+		margin-right: 20px;
+		border: 0px solid #000;
+		font-size: 18px;
+}
+
+.pro_footer_row {
+		width: 100%;
+		clear: both;
+		border: 0px solid #000;
+		float: left;
+		margin-top: 10px;
+		/*margin-left: 20px;*/
+}
+
+.pro_footer_row_sign {
+		width: 100%;
+		clear: both;
+		border: 0px solid #000;
+		float: left;
+		margin-top: 2px;
+		font-size: 12px;
+		/*margin-left: 20px;*/
+}
+
+.pro_footer_signature {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+}
+
+.wcolor {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.textinputb1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        /*border: 3px solid #D1D7DC;*/
+        border: 2px solid #FFFFFF;
+        padding-right: 3px;
+        padding-left: 3px;
+}
